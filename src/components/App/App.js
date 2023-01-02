@@ -17,14 +17,11 @@ class App extends Component {
   componentDidMount = () => {
     getAllTricks()
       .then(data => {
-        console.log("Data: ", data)
         this.setState({ tricks: data })
       })
   }
 
   addTrick = (newTrick) => {
-    console.log('This works')
-    console.log('New Trick: ', newTrick)
     this.setState({ tricks: [...this.state.tricks, newTrick] })
   }
 

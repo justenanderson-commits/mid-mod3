@@ -38,7 +38,7 @@ class Form extends Component {
 
   render() {
     return (
-      <form>
+      <form className="form">
         <select name="stance" onChange={ (event) => this.handleChange(event) }>
           <option value="" placeholder="Choose your Stance"> Choose your stance</option>
           <option value="Regular">Regular</option>
