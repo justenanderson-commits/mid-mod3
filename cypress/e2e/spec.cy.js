@@ -13,7 +13,9 @@ beforeEach(() => {
 
   it('should contain a form with inputs', () => {
     cy.get('select[name="stance"]')
-      .select[1].should("contain", "Regular") 
+      .select(0).invoke("val").should("eq", "Choose your Stance") 
+      .select(1).invoke("val").should("eq", "Regular") 
+      .select(2).invoke("val").should("eq", "Switch") 
   })
 })
 
