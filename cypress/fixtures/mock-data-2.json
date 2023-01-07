@@ -21,10 +21,10 @@
   "id": 3
   },
   {
-    "stance": "switch",
-    "name": "frontside 50-50, backside 180 out",
-    "obstacle": "ground",
-    "tutorial": "https://www.youtube.com/watch?v=9N9swrZU1HA",
-    "id": 3
+    "stance": "regular",
+    "name": "Fall down",
+    "obstacle": "rail",
+    "tutorial": "Blah blah",
+    "id": 4
     }
   ]
