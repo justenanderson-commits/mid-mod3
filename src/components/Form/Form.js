@@ -70,7 +70,7 @@ class Form extends Component {
           onChange={ (event) => this.handleChange(event) }
         />
 
-        <input type="submit" value="Send It" onClick={ (event) => this.sendNewTrick(event) }></input>
+        <input data-cy="send-it" type="submit" value="Send It" onClick={ (event) => this.sendNewTrick(event) }></input>
       </form>
     )
   }
