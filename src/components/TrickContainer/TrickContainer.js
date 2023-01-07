@@ -4,6 +4,7 @@ import Card from '../Card/Card'
 const TrickContainer = ({ tricks }) => {
 
   const displayTricks = tricks.map(trick => {
+    console.log("trick id: ", trick.id)
    return (
     <Card 
       stance={ trick.stance }
